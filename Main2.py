@@ -32,11 +32,13 @@ def extract_text_from_url(url):
         raise Exception(f"Erro ao acessar a URL. Código: {response.status_code}")
 
 # Instancia o cliente Azure OpenAI
+
+# Instancia o cliente Azure OpenAI
 client = AzureChatOpenAI(
-    azure_endpoint=os.getenv("OPENAI_ENDPOINT"),
-    api_key=os.getenv("OPENAI_API_KEY"),
-    api_version=os.getenv("OPENAI_API_VERSION"),
-    deployment_name=os.getenv("OPENAI_DEPLOYMENT"),
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
+    deployment_name=os.getenv("AZURE_OPENAI_DEPLOYMENT"),
     max_retries=0
 )
 
@@ -57,3 +59,9 @@ if __name__ == "__main__":
 
     print("\n🔍 Tradução em Markdown:\n")
     print(traducao)
+
+    from dotenv import load_dotenv
+import os
+
+load_dotenv()
+API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
