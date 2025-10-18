@@ -1,53 +1,58 @@
 # 🧠 AI Translator com Azure OpenAI
 
-Este projeto realiza a extração e tradução de artigos da web utilizando Azure OpenAI e LangChain. O conteúdo é formatado em Markdown e salvo localmente.
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+![LangChain](https://img.shields.io/badge/LangChain-Azure_OpenAI-blueviolet)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+
+Este projeto realiza a extração e tradução de artigos da web utilizando Azure OpenAI e LangChain. O conteúdo é formatado em Markdown estruturado e salvo localmente para fácil reutilização.
 
 ## 🚀 Funcionalidades
 
-- Extração de texto limpo de qualquer URL
-- Tradução automática para o idioma desejado
-- Formatação em Markdown estruturado
-- Salvamento em arquivos `.md` com timestamp
+- 🔍 Extração de texto limpo a partir de qualquer URL
+- 🌐 Tradução automática para o idioma desejado
+- 📝 Formatação do conteúdo em Markdown com títulos e parágrafos
+- 💾 Salvamento em arquivos `.md` com timestamp exclusivo
 
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias utilizadas
 
-- Python
-- LangChain + Azure OpenAI
-- BeautifulSoup
-- dotenv
+- [Python](https://www.python.org/)
+- [LangChain](https://www.langchain.com/) com [Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/)
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+- [python-dotenv](https://pypi.org/project/python-dotenv/)
 
 ## 📦 Como usar
 
-1. Clone o repositório:
+1. **Clone o repositório:**
 
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
    ```
 
-2. Crie e ative o ambiente virtual:
+2. **Crie e ative o ambiente virtual:**
 
    ```bash
    python -m venv .venv
    .venv\Scripts\activate
    ```
 
-3. Instale as dependências:
+3. **Instale as dependências:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Crie um arquivo `.env` com suas credenciais:
+4. **Crie um arquivo `.env` com suas credenciais da Azure OpenAI:**
 
    ```env
-   AZURE_OPENAI_API_KEY=...
-   AZURE_OPENAI_ENDPOINT=...
+   AZURE_OPENAI_API_KEY=your-api-key
+   AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com/
    AZURE_OPENAI_API_VERSION=2024-02-15-preview
    AZURE_OPENAI_DEPLOYMENT=gpt-4o-mini
    ```
 
-5. Execute o script:
+5. **Execute o script principal:**
 
    ```bash
    python main3.py
@@ -55,9 +60,22 @@ Este projeto realiza a extração e tradução de artigos da web utilizando Azur
 
 ## 📁 Resultados
 
-Os arquivos traduzidos são salvos na pasta `resultados/` com nomes únicos baseados na data e hora.
+Os arquivos traduzidos são salvos automaticamente na pasta `resultados/`, com nomes únicos baseados na data e hora da execução.
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT.
+Distribuído sob a licença [MIT](https://opensource.org/licenses/MIT). Sinta-se à vontade para usar, modificar e compartilhar.
+
+## 👨‍💻 Expert
+
+
+
+[<img src="https://avatars.githubusercontent.com/u/189679772?s=400&u=4614f09cc0678d91234b5688ae3b7e90c38f6cf1&v=4" alt="img" style="zoom:25%;" />](https://avatars.githubusercontent.com/u/189679772?s=400&u=4614f09cc0678d91234b5688ae3b7e90c38f6cf1&v=4)
+
+  Elias Acosta
+  [GitHub ](https://github.com/EliasPira) | [LinkedIn](https://www.linkedin.com/in/elias-acosta-a0ba8619a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BP%2BycqAVSSiGzJEhl0tiq%2Bw%3D%3)
+
+
+
+<
 
