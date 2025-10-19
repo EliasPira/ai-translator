@@ -68,14 +68,21 @@ Distribuído sob a licença [MIT](https://opensource.org/licenses/MIT). Sinta-se
 
 ## 👨‍💻 Expert
 
+---
 
-
-[<img src="https://avatars.githubusercontent.com/u/189679772?s=400&u=4614f09cc0678d91234b5688ae3b7e90c38f6cf1&v=4" alt="img" style="zoom:25%;" />](https://avatars.githubusercontent.com/u/189679772?s=400&u=4614f09cc0678d91234b5688ae3b7e90c38f6cf1&v=4)
-
-  Elias Acosta
-  [GitHub ](https://github.com/EliasPira) | [LinkedIn](https://www.linkedin.com/in/elias-acosta-a0ba8619a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BP%2BycqAVSSiGzJEhl0tiq%2Bw%3D%3)
-
-
-
-<
+<table>
+  <tr>
+    <td align="center" width="100">
+      <a href="https://github.com/EliasPira">
+        <img src="https://avatars.githubusercontent.com/u/189679772?s=100" width="80" alt="Elias Acosta"/>
+      </a>
+    </td>
+    <td>
+      <strong>Elias Acosta</strong>  
+      <br/>
+      <a href="https://github.com/EliasPira">GitHub</a> • 
+      <a href="https://www.linkedin.com/in/elias-acosta-a0ba8619a">LinkedIn</a>
+    </td>
+  </tr>
+</table>
 
